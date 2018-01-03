@@ -1,5 +1,7 @@
 package day01
 
+import Utils.Direction
+
 import scala.collection.mutable.HashSet
 import scala.io.Source
 
@@ -21,17 +23,6 @@ object Day01 {
 
     def dist = x.abs + y.abs
 
-  }
-
-  case class Direction(x: Int, y: Int) {
-
-    def turnRight(): Direction = {
-      Direction(y, x * -1)
-    }
-
-    def turnLeft(): Direction = {
-      Direction(y * -1, x)
-    }
   }
 
   def main(args: Array[String]): Unit = {
