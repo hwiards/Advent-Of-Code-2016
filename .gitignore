@@ -1,0 +1,12 @@
+*.class
+*.log
+*.java
+*classpath
+
+*.idea
+*DS_Store
+*project
+*target
+*build.sbt
+*.iml
+*out
